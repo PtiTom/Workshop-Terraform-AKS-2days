@@ -1,8 +1,8 @@
 terraform {
   required_version = ">= 1.1.7"
   backend "azurerm" {
-    resource_group_name  = "RG-AKSCluster"
-    storage_account_name = "backendterrapierrc"
+    resource_group_name  = "TME-RG-Workshop"
+    storage_account_name = "tmeterraformstore"
     container_name       = "tfstate"
     key                  = "lab11.terraform.tfstate"
   }
