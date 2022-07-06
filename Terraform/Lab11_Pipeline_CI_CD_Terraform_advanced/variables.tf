@@ -6,7 +6,7 @@ variable "azureRegion" {
 
 variable "resourceGroupName" {
   type    = string
-  default = "RG-DemoLab11"
+  default = "RG-DemoLab11-TME"
 }
 
 variable "AzureSubscriptionID" {
@@ -32,27 +32,27 @@ variable "Password" {
 
 variable "vnetName" {
   type    = string
-  default = "Vnet-VM"
+  default = "Vnet-VM-TME"
 }
 
 variable "vmUser" {
   type    = string
-  default = "stan"
+  default = "tom"
 }
 
 variable "subnetName" {
   type    = string
-  default = "Subnet-VM"
+  default = "Subnet-VM-TME"
 }
 
 variable "nicName" {
   type    = string
-  default = "Nic-1"
+  default = "Nic-1-TME"
 }
 
 variable "vmName" {
   type    = string
-  default = "VM-Linux"
+  default = "VM-Linux-TME"
 }
 
 # az vm list-skus -l westus
