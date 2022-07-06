@@ -3,7 +3,7 @@ name: 6 - (Lab11) Workflow CI/CD Advanced Terraform
 on:
   push:
     branches:
-      - Dev-Pierrc
+      - Dev-Stan
   workflow_dispatch:
 
 jobs:
