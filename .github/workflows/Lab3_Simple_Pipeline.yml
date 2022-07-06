@@ -6,8 +6,8 @@ on:
 jobs:
   
   connexion-azure: # Nom du job   
-    runs-on: ubuntu-latest # Runner machine qui execute le workflow https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
-
+    #runs-on: ubuntu-latest # Runner machine qui execute le workflow https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
+    runs-on: self-hosted
     
     steps:
       
