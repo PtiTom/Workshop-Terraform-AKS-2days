@@ -68,7 +68,8 @@ jobs:
           sudo add-apt-repository ppa:deadsnakes/ppa
           sudo apt install python3.7
           sudo apt install python3-pip
-          sudo python3.7 -m pip install -U checkov
+          sudo apt install python3-distutils
+          sudo python3.7 -m pip install distutils -U checkov
           
       - name: Execution de checkov 
         run: |
