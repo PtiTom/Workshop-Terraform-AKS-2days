@@ -9,11 +9,11 @@ variable "azureRegion" {
 #  Resource Group Name
 variable "resourceGroupName" {
   type    = string
-  default = "RG-TME-AKSCluster"
+  default = "TME-RG-Workshop"
 }
 
 #  Azure Container Registry name
 variable "acrName" {
   type    = string
-  default = "acrTomEtJuju"   # IMPORTANT : changer ce nom et mettre un nom unique (cf. https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming#example-names-storage)
+  default = "acrTomToutSeul"   # IMPORTANT : changer ce nom et mettre un nom unique (cf. https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming#example-names-storage)
 }
